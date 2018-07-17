@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    background-color: #2E1B00;
+    color: white;
+    width: 100%;
+    padding-bottom: 3em;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    button {
+        background-color: #2E1B00;
+        border: none;
+        color: white;
+    }
+
+    h1 {
+        margin: 1em 0;
+        font-family: serif;
+    }
+
+    h2 {
+        margin-bottom: 3em;
+        font-family: serif;
+    }
+}
+
+.down {
+    float: right;
+}
+
+.browse {
+    background-color: #A0945E;
+    padding: 2em;
+    border-radius: 5%;
+    padding: 2em;
+}
