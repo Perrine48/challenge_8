@@ -66,6 +66,24 @@ header {
     font-family: serif;
 }
 
+.card{
+
+    h3 {
+        text-decoration: none;
+        color: black;
+    }
+
+    h4 {
+        text-decoration: none;
+        color: black;
+    }
+
+    p {
+        text-decoration: none;
+        color: black;
+    }
+}
+
 #foot {
     background-color: #123C59;
     color: white;
@@ -97,6 +115,31 @@ header {
         color: #B0B0B0;
     }
 }
+
+/*--------Page produit-------------------------------------------------*/
+
+.headProduit {
+
+    nav {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 4em;
+        margin: 0 0;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    i {
+        margin-top: 0;
+    }
+}
+
+
+
 
 @media screen and (max-width:1000px) {
 
