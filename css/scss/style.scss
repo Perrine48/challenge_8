@@ -22,6 +22,11 @@ header {
             color: white;
       }
 
+      a:hover {
+          text-decoration: none;
+          color: white;
+      }
+
       button {
             background-color: #2E1B00;
             border: none;
@@ -39,6 +44,10 @@ header {
             font-family: serif;
             font-size: 4.5em;
       }
+}
+
+.cartLink {
+    color: #C7C3BB;
 }
 
 .down {
@@ -70,20 +79,11 @@ header {
 }
 
 .card {
-      h3 {
+      h3, h4, p {
             text-decoration: none;
             color: black;
       }
 
-      h4 {
-            text-decoration: none;
-            color: black;
-      }
-
-      p {
-            text-decoration: none;
-            color: black;
-      }
 }
 
 #foot {
