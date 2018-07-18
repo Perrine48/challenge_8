@@ -1,3 +1,5 @@
+@import "nav";
+
 body,
 html {
       height: 100%;
@@ -118,28 +120,12 @@ header {
 /*--------Page produit-------------------------------------------------*/
 #product {
       .headProduit {
-            nav {
-                  margin-bottom: 0;
-            }
-
-            h1 {
-                  font-size: 4em;
-                  margin: 0;
-            }
-
-            h2 {
-                  font-size: 2em;
-            }
-
-            i {
-                  margin-top: 0;
-            }
+            @include nav;
       }
 
       .bx-wrapper {
             width: 90%;
             margin-top: 4em;
-
       }
 
       .bx-wrapper img {
@@ -153,38 +139,84 @@ header {
             font-family: serif;
       }
 
+      .desc {
+            margin-top: 3em;
 
-          .desc {
-              margin-top: 3em;
-              p {
+            p {
                   left: auto;
                   // width: 40%;
-              }
-          }
+            }
+      }
 
-    .titleProduct{
-        padding-top: 3%;
-        font-size: 4em;
-    }
+      .titleProduct {
+            padding-top: 3%;
+            font-size: 4em;
+      }
 
-    .productRow {
-        padding: 2%;
-    }
+      .productRow {
+            padding: 2%;
+      }
 
-    .carac {
-        margin-top: 4%;
-    }
+      .carac {
+            margin-top: 4%;
+      }
 
-    .theprice {
-        padding: 1% 0;
-    }
+      .theprice {
+            padding: 1% 0;
+      }
 
-    .add2cart {
-        background-color: #2E1B00;
-        border: none;
-        color: white;
-        padding: 1%;
-    }
+      .add2cart {
+            background-color: #2E1B00;
+            border: none;
+            color: white;
+            padding: 1%;
+      }
+}
+//////////////////////////////////////////////// Page Panier///////////////////////////////////////
+
+#panier {
+      .cartRow {
+            @include nav;
+      }
+
+      main {
+            padding: 2em 0;
+            h2 {
+                  font-size: 4em;
+                  font-family: serif;
+            }
+
+            .article {
+                  border-bottom: 1px solid lightgrey;
+                  border-top: 1px solid lightgrey;
+                  padding: 2em 0;
+
+                  .col {
+                        vertical-align: middle;
+
+                        p {
+                              display: inline-block;
+                              width: 10%;
+                        }
+                        select {
+                            display: inline-block;
+                        }
+                  }
+            }
+            .total {
+                text-align: right;
+                h3 {
+                    display: inline-block;
+                }
+                button {
+                    margin-left: 1em;
+                    padding: 0.5em;
+                    border-radius: 0.5em;
+                    color: white;
+                    background-color: #2E1B00;
+                }
+            }
+      }
 }
 @media screen and (max-width:1000px) {
       .newsletter {

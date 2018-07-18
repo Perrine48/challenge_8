@@ -1,0 +1,18 @@
+@mixin nav {
+      nav {
+            margin-bottom: 0;
+      }
+
+      h1 {
+            font-size: 4em;
+            margin: 0;
+      }
+
+      h2 {
+            font-size: 2em;
+      }
+
+      i {
+            margin-top: 0;
+      }
+}
